@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!--
+  WRITTEN BY: Kentrick Felix Kepawitono
+  EMAIL: kkepawit@uci.edu
+  -->
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Kentrick Felix Kepawitono">
+    <meta name="description" content="Home Page">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <!-- you would link to an external stylesheet here! -->
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <!-- you would also link to Bootstrap here! -->
+     <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+     <!-- jQuery library -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <!-- Popper JS -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     <!-- Latest compiled JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+     <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;900&display=swap" rel="stylesheet">
+
+    <title>Kentrick Felix Kepawitono</title>
+  </head>
+  <body>
+
+    <!--Header Navigation Bar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-sm navbar-light bg-light navbar-custom">
+        <!--Logo-->
+        <a href="index.html">
+          <img src="resources/logo.png" class="logo" alt="Logo">
+        </a>
+
+        <!--Collapse Button-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--Navigation List-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#about-me">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#project">Project</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!--Greeting Section-->
+    <section class="container-fluid container-custom">
+      <div class="row row-custom">
+        <div class="col-md-7 col-lg-8">
+          <h1 class="greeting" id="about-me">Hi, <br> I'm <span class="name-bold">Kentrick Felix</span></h1>
+          <h1 class="greeting-sub">Android and Web Developer (Beginner)</h1>
+          <p class="greeting-desc">I am currently a Senior at University of California, Irvine, majoring in Business Information Management, which focus on computing, informatics, and business fundamentals. <br><br> Skills that I have been developing during my studies include management, JavaScript, CSS, HTML, C++, Java, and Python.</p>
+        </div>
+        <div class="col-md-1 col-lg-1 d-none d-lg-block"></div>
+
+        <!--Programming Skills Logo-->
+        <div class="col-md-4 col-lg-3 d-none d-lg-block">
+          <img src="resources/cpp.png" class="programming-logo" alt="C++ Logo">
+          <img src="resources/java.png" class="programming-logo" alt="Java Logo"><br>
+          <img src="resources/python.png" class="programming-logo" alt="Python Logo">
+          <img src="resources/html.png" class="programming-logo" alt="HTML Logo"><br>
+          <img src="resources/css.png" class="programming-logo" alt="CSS Logo">
+          <img src="resources/js.png" class="programming-logo" alt="JS Logo"><br>
+        </div>
+      </div>
+    </section>
+    <!--Project Section-->
+    <section class="container-fluid project-custom">
+      <div class="row row-custom video-row-custom">
+        <div class="col-md-6">
+          <h1 class="heading" id="project">Project</h1>
+          <p class="paragraph">This is an Android app intended to be used by a company in Indonesia to act as an access control for its employees.</p>
+        </div>
+        <div class="col-md-2 d-none d-lg-block"></div>
+        <div class="col-md-4">
+          <!--Looping the Project Video-->
+          <video autoplay loop class="video" muted>
+            <source src="resources/video.mp4" type="video/mp4"/>
+              <img src="resources/video-screenshot.png" title="Your browser does not support the <video> tag" alt="Project video screenshot">
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer Section-->
+    <footer>
+      <div class="footer">
+        <a href="index.html">
+          <img src="resources/logo.png" class="logo" alt="Logo">
+        </a>
+        <p>Email: kkepawit@uci.edu</p>
+        <br><br><br>
+        <p>Copyright ©2021 Kentrick</p>
+      </div>
+    </footer>
+  </body>
+</html>
